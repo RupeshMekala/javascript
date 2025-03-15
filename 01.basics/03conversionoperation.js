@@ -38,8 +38,8 @@ let isLoggenIn = ""
 // let booleanisLoggedIn = Boolean(isLoggenIn) // isLoggedIn = 1
 // console.log(typeof booleanisLoggedIn, booleanisLoggedIn);
 
-let booleanisLoggedIn = Boolean(isLoggenIn) // isLoggedIn = ""
-console.log(typeof booleanisLoggedIn, booleanisLoggedIn);
+// let booleanisLoggedIn = Boolean(isLoggenIn) // isLoggedIn = ""
+// console.log(typeof booleanisLoggedIn, booleanisLoggedIn);
 
 
 // boolean
@@ -48,4 +48,36 @@ console.log(typeof booleanisLoggedIn, booleanisLoggedIn);
 
 
 // every basic datatype can be converted to string
+
+
+// **************************************** OPERATONS ****************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue)
+
+// console.log(2**4) // 2^4
+// console.log(2%2) // modulo opertaor
+
+// "Hello " + "World" // what will this return?
+
+// let a = "1" + 2 + 2 // what ?
+// let b = 1 + 2 + "2" // what ? 
+// console.log(a, typeof a)
+// console.log(b, typeof b)
+
+// console.log(+true) // what will it print ? and why?
+// console.log(+"") //unary plus operator it converts into number
+
+a = 1;
+b = ++a;
+console.log(a, b);
+
+c = 1;
+d = c++;
+console.log(c, d);
+
+
+
+
 
