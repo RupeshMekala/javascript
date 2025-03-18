@@ -28,8 +28,7 @@ console.log(newName.trim())
 
 const url = "https://www.google.com/hitesh%20ch-oud-ary"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-')) // what does it do? 
+console.log(url.includes('hitesh')) // what does it return?
 
-console.log(url.includes('hitesh'))
-
-console.log(url.split('-'))
+console.log(url.split('-')) 
